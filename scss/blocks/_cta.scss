@@ -1,0 +1,430 @@
+.cta{
+    width: 1320px;
+    height: 671px;;
+    position: absolute;
+    top: 3897px;
+    border: 1px;
+
+    &__title{
+        font-size: 30px;
+        line-height: 40.5px;
+        letter-spacing: 0.5px;
+        color: rgba(16, 29, 35, 1);
+        position: absolute;
+        top: -25px;
+        left: 62px;
+    }
+
+    &__arrows{
+        width: 100px;
+        height: 40px;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        // border: 1px solid;
+        display: flex;
+        gap: 20px;
+    }
+
+    &__logos{
+        width: 1200px;
+        height: 150px;
+        position: absolute;
+        top: 91px;
+        left: 60px;
+        border: 1px;
+        display: flex;
+
+        &-1{
+            position: relative;
+            width: 240px;
+            height: 150px;
+            border: 1px solid rgba(209, 209, 209, 1);
+            
+            img{
+                position: absolute;
+                top: 40px;
+                left: 40px;
+            }
+        }
+
+        &-2{
+            position: relative;
+            width: 240px;
+            height: 150px;
+            border: 1px solid rgba(209, 209, 209, 1);
+            
+            img{
+                position: absolute;
+                top: 45px;
+                left: 20px;
+            }
+        }
+
+        &-3{
+            position: relative;
+            width: 240px;
+            height: 150px;
+            border: 1px solid rgba(209, 209, 209, 1);
+            
+            img{
+                position: absolute;
+                top: 30px;
+                left: 50px;
+            }
+        }
+
+        &-4{
+            position: relative;
+            width: 240px;
+            height: 150px;
+            border: 1px solid rgba(209, 209, 209, 1);
+            
+            img{
+                position: absolute;
+                top: 25px;
+                left: 25px;
+            }
+        }
+
+        &-5{
+            position: relative;
+            width: 240px;
+            height: 150px;
+            border: 1px solid rgba(209, 209, 209, 1);
+            
+            img{
+                position: absolute;
+                top: 30px;
+                left: 60px;
+            }
+        }
+    }
+
+    &__btm{
+        width: 1320px;
+        height: 330px;
+        position: absolute;
+        bottom: 0px;
+        background-color: rgba(16, 29, 35, 1);
+        border: 1px;
+
+        &-text{
+            width: 503px;
+            height: 174px;
+            font-size: 30px;
+            color: rgba(233, 61, 7, 1);
+            line-height: 40.5px;
+            letter-spacing: 0.5px;
+            position: absolute;
+            top: 30px;
+            left: 62px;
+        }
+
+        &-text-2{
+            color: white;
+            font-size: 20px;
+            line-height: 27px;
+        }
+
+        &-name{
+            width: 350px;
+            height: 61px;
+            position: absolute;
+            top: 109px;
+            left: 670px;
+
+            &-id{
+                background-color: rgba(16, 29, 35, 1);
+            }
+        }
+
+        &-tel{
+            width: 350px;
+            height: 61px;
+            position: absolute;
+            top: 109px;
+            left: 1040px;
+
+            &-id{
+                background-color: rgba(16, 29, 35, 1);
+            }
+        }
+
+        &-btn{
+            width: 192px;
+            height: 40px;
+            border-radius: 20px;
+            background-color: rgba(233, 61, 7, 1);
+            border: 0px;
+            position: absolute;
+            top: 215px;
+            left: 1040px;
+
+            &-link{
+                text-decoration: none;
+                color: white;
+                font-size: 14px;
+                text-align: center;
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 770px) {
+
+    .cta{
+        width: 760px;
+        height: 512px;
+        position: absolute;
+        top: 3044px;
+        // border: 1px solid;
+
+        &__title{
+            font-size: 23px;
+            position: absolute;
+            top: -10px;
+            left: 20px;
+        }
+
+        &__arrows{
+            position: absolute;
+            right: 20px;
+        }
+
+        &__logos{
+            width: 719px;
+            height: 112px;
+            position: absolute;
+            top: 75px;
+            left: 20px;
+
+            &-1{
+                width: 179px;
+                height: 112px;
+
+                img{
+                    width: 117px;
+                    height: 47px;
+                }
+            }
+
+            &-2{
+                width: 179px;
+                height: 112px;
+
+                img{
+                    width: 146px;
+                    height: 36px;
+                }
+            }
+
+            &-3{
+                width: 179px;
+                height: 112px;
+
+                img{
+                    width: 83px;
+                    height: 81px;
+                }
+            }
+
+            &-4{
+                width: 179px;
+                height: 112px;
+
+                img{
+                    width: 141px;
+                    height: 79px;
+                    position: absolute;
+                    top: 20px;
+                    left: 20px;
+                }
+            }
+
+            &-5{
+                display: none;
+            }
+        }
+
+        &__btm{
+            width: 760px;
+            height: 285px;
+
+            &-text{
+                width: 289px;
+                height: 150px;
+                font-size: 24px;
+                line-height: 28px;
+                letter-spacing: 0.43px;
+                position: absolute;
+                left: 35px;
+                top: 10px;
+            }
+
+            &-text-2{
+                font-size: 14px;
+                line-height: 18px;
+            }
+
+            &-name{
+                width: 103px;
+                height: 35px;
+                position: absolute;
+                top: 80px;
+                left: 360px;
+            }
+
+            &-tel{
+                width: 103px;
+                height: 35px;
+                position: absolute;
+                top: 80px;
+                left: 560px;
+            }
+
+            &-btn{
+                width: 143px;
+                height: 34px;
+                position: absolute;
+                top: 170px;
+                left: 582px;
+            }
+        }
+    }
+    
+}
+
+
+
+@media screen and (max-width: 540px) {
+
+    .cta{
+        width: 540px;
+        height: 540px;;
+        position: absolute;
+        top: 3776px;
+        // border: 1px solid;
+
+        &__title{
+            font-size: 23px;
+            line-height: 31px;
+            letter-spacing: 0.43px;
+            position: absolute;
+            top: -20px;
+            left: 20px;
+        }
+
+        &__arrows{
+            position: absolute;
+            right: 20px;
+        }
+
+        &__logos{
+            width: 499px;
+            height: 101px;
+            position: absolute;
+            top: 76px;
+            left: 20px;
+
+            &-1{
+                position: relative;
+                width: 166px;
+                height: 101px;
+
+                img{
+                    width: 108px;
+                    height: 43px;
+                    position: absolute;
+                    top: 25px;
+                    left: 28px;
+                }
+            }
+
+            &-2{
+                position: relative;
+                width: 166px;
+                height: 101px;
+
+                img{
+                    width: 108px;
+                    height: 43px;
+                    position: absolute;
+                    top: 25px;
+                    left: 28px;
+                }
+            }
+
+            &-3{
+                position: relative;
+                width: 166px;
+                height: 101px;
+
+                img{
+                    width: 76px;
+                    height: 73px;
+                    position: absolute;
+                    top: 20px;
+                    left: 38px;
+                }
+            }
+
+            &-4{
+                display: none;
+            }
+
+            &-5{
+                display: none;
+            }
+        }
+
+        &__btm{
+            width: 540px;
+            height: 332px;
+
+            &-text{
+                width: 499px;
+                height: 150px;
+                font-size: 24px;
+                line-height: 32px;
+                letter-spacing: 0.43px;
+                position: absolute;
+                top: 11px;
+                left: 20px;
+            }
+
+            &-text-2{
+                font-size: 14px;
+                line-height: 18px;
+            }
+
+            &-name{
+                position: absolute;
+                left: 34px;
+                top: 200px;
+            }
+
+            &-tel{
+                position: absolute;
+                top: 200px;
+                left: 305px;
+            }
+
+            &-btn{
+                width: 143px;
+                height: 34px;
+                border-radius: 17px;
+                position: absolute;
+                top: 260px;
+                left: 180px;
+
+                &-link{
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+    
+}

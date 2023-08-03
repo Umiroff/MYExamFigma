@@ -1,0 +1,301 @@
+.nav{
+    width: 1320px;
+    height: 150px;
+    // border: 1px solid;
+
+    &__top{
+        width: 749px;
+        height: 19px;
+        position: absolute;
+        top: 15px;
+        left: 501px;
+        // border: 1px solid;
+
+        &-con{
+            width: 474px;
+            height: 18px;
+            position: absolute;
+            // border: 1px solid;
+
+            &-box{
+                width: 135px;
+                height: 18px;
+                position: absolute;
+                // border: 1px solid;
+
+                &-vec{
+                    position: absolute;
+                    top: 3px;
+                    left: 1.5px;
+                }
+
+                &-mail{
+                    font-size: 12px;
+                    text-decoration: none;
+                    color: rgba(16, 29, 35, 1);
+                    position: absolute;
+                    top: 2px;
+                    left: 31px;
+                }
+            }
+
+            &-box-2{
+                width: 135px;
+                height: 18px;
+                position: absolute;
+                left: 175px;
+                // border: 1px solid;
+
+                &-vec{
+                    position: absolute;
+                    top: 2px;
+                    left: 1.5px;
+                }
+
+                &-num{
+                    font-size: 12px;
+                    text-decoration: none;
+                    color: rgba(16, 29, 35, 1);
+                    position: absolute;
+                    top: 2px;
+                    left: 26px;
+                }
+            }
+
+            &-item{
+                font-size: 12px;
+                text-decoration: none;
+                color: rgba(233, 61, 7, 1);
+                position: absolute;
+                top: 2px;
+                left: 350px;
+            }
+        }
+
+        &-soc{
+            width: 92px;
+            height: 18px;
+            position: absolute;
+            right: 0px;
+            display: flex;
+            gap: 18px;
+        }
+    }
+
+    &__line{
+        width: 1280px;
+        height: 1px;
+        position: absolute;
+        top: 47.5px;
+        left: 20px;
+        background-color: rgba(229, 229, 229, 1);
+    }
+
+    &__down{
+        width: 1189px;
+        height: 60px;
+        position: absolute;
+        top: 69px;
+        left: 62px;
+        // border: 1px solid;
+
+        &-logo{
+            position: absolute;
+        }
+
+        &-list{
+            width: 750px;
+            height: 27px;
+            position: absolute;
+            top: 15px;
+            right: 0px;
+            // border: 1px solid;
+
+            &-items{
+                width: 696px;
+                height: 15px;
+                position: absolute;
+                top: 6px;
+                left: 0px;
+                // border: 1px solid;
+                display: flex;
+                align-items: center;
+                gap: 50px;
+
+                a{
+                    text-decoration: none;
+                    color: rgba(16, 29, 35, 1);
+                    font-size: 12px;
+                }
+            }
+
+            &-line{
+                width: 1px;
+                height: 27px;
+                position: absolute;
+                top: 0px;
+                right: 30px;
+                background-color: rgba(229, 229, 229, 1);
+            }
+
+            &-search{
+                position: absolute;
+                top: 6px;
+                right: 0px;
+            }
+        }
+
+        &-icon{
+            display: none;
+        }
+    }
+}
+
+
+@media screen and (max-width: 770px) {
+
+    .nav{
+        width: 760px;
+        height: 130px;
+        // border: 1px solid;
+
+        &__top{
+            width: 719px;
+            height: 16px;
+            position: absolute;
+            top: 12px;
+            left: 20px;
+        }
+
+        &__line{
+            width: 760px;
+            position: absolute;
+            left: 0px;
+        }
+
+        &__down{
+            width: 717px;
+            height: 51px;
+            position: absolute;
+            top: 59px;
+            left: 21px;
+
+            &-logo{
+                width: 180px;
+                height: 51px;
+
+                img{
+                    width: 180px;
+                    height: 51px;
+                }
+            }
+
+            &-list{
+                width: 475px;
+                height: 23px;
+                position: absolute;
+                top: 24px;
+                left: 242px;
+                // border: 1px solid;
+
+                &-items{
+                    width: 446px;
+                    height: 12px;
+                    gap: 10px;
+
+                    a{
+                        font-size: 10px;
+                    }
+                }
+
+                &-line{
+                    position: absolute;
+                    right: 30px;
+                }
+            }
+        }
+    }
+    
+}
+
+
+
+@media screen and (max-width: 540px) {
+
+    .nav{
+        width: 540px;
+        height: 120px;
+        // border: 1px solid;
+
+        &__top{
+            width: 501px;
+            height: 15px;
+            position: absolute;
+            top: 13px;
+            left: 19px;
+
+            &-con{
+                width: 379px;
+
+                &-box{
+                    position: absolute;
+
+                    &-mail{
+                        font-size: 10px;
+                    }
+                }
+
+                &-box-2{
+                    position: absolute;
+                    left: 135px;
+
+                    &-num{
+                        font-size: 10px;
+                    }
+                }
+
+                &-item{
+                    font-size: 10px;
+                    position: absolute;
+                    left: 275px;
+                }
+            }
+        }
+
+        &__line{
+            width: 540px;
+            position: absolute;
+            left: 0px;
+        }
+
+        &__down{
+            width: 500px;
+            height: 43px;
+            position: absolute;
+            top: 59px;
+            left: 20px;
+
+            &-logo{
+                width: 132px;
+                height: 43px;
+
+                img{
+                    width: 152px;
+                    height: 43px;
+                }
+            }
+
+            &-list{
+                display: none;
+            }
+
+            &-icon{
+                display: block;
+                position: absolute;
+                top: 16px;
+                right: 0px;
+            }
+        }
+    }
+    
+}
